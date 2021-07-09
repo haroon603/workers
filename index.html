@@ -24,8 +24,8 @@
             <div class="row">
                 <nav class="navbar w-100 bg-white" style="padding-left: 3.056%; padding-right: 3.056%; padding-top: 14px; padding-bottom: 14px;">
                     <img src="logo.png  " width="99" height="37" />
-                    <div style="width: 35.5%; display: flex;">
-                        <div class="input-group sbar" style="height: 42px; width: 68%; margin-right: 6.08%;">
+                    <div style="width: 47.5%; display: flex;">
+                        <div class="input-group sbar" style="height: 42px; width: 68%; margin-right: 42.08%;">
                             <input
                                 type="text"
                                 class="form-control text-dark sbar-input fs-14"
@@ -44,9 +44,7 @@
                     </div>
         
                     <div>
-                        <div class="mt-1 mr-3 float-left">
-                            <img src="Group 713.png" style="width: 23px; height: 17.25px;" />
-                        </div>
+                       
                         <div class="mt-1 mr-3 float-left">
                             <img src="img/French.png" style="width: 23px; height: 17.25px;" />
                         </div>
@@ -69,21 +67,28 @@
 
 
                 <div class="d-flex" style="width: 21.007%; border-right: 1px solid rgba(209, 209, 209, 0.5);">
-                    <ul id="tabsJustified" class="nav nav-pills flex-column" style="height: 742px; width: 100%; margin-left: 11.9%; margin-right: 11.9%; margin-top: 50px;">
+                    <ul id="tabsJustified" class="nav nav-pills flex-column" style="height: 742px; width: 100%; margin-left: 11.9%; margin-right: 11.9%; margin-top: 30px;">
                         
 
                         <li class="nav-item">
                             <a href="" id="permit-link" data-toggle="tab" class="nav-link small active cat text-font-normal">
                                 <img src="img/Work.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
                                 <img src="img/Work (1).png" style="width: 18px; height: 18px;" class="black-image" />
-                                &nbsp;&nbsp;Permit to Work
+                                &nbsp;&nbsp;<span class="fs-12-1">Permit to Work</span>
                             </a>    
                         </li>
                         <li class="nav-item mt-3">
                             <a href="" id="edit-profile" data-toggle="tab" class="nav-link small cat text-font-normal">
                                 <img src="Profile.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
                                 <img src="Profile (1).png" style="width: 18px; height: 18px;" class="black-image" />
-                                &nbsp;&nbsp;Edit Profile
+                                &nbsp;&nbsp;<span class="fs-12-1">Edit Profile</span>
+                            </a>    
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a href="" id="disconnect" data-toggle="tab" class="nav-link small cat text-font-normal">
+                                <img src="Logout.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
+                                <img src="Logout.png" style="width: 18px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;<span class="fs-12-1 tc-red">Se deconnecter</span>
                             </a>    
                         </li>
                         
@@ -92,7 +97,7 @@
 
                 <div class="tab-content p-0" style="width: 78.99%;">
 
-                    <div id="permit" style="margin-top: 50px;">
+                    <div id="permit" style="margin-top: 30px;">
                         <div class="container-fluid set4">
                             <div class="navbar pl-5 pr-1 pt-3 mr-0 pb-1" style="margin-left: -15px;">
                                 <div id="set-wid" style="width: 229px; height: 54px; border-radius: 10px; color: #200E32;" class="bg-white">
@@ -107,7 +112,7 @@
                                 </div>
                                 <div>
                                     <div class="navbar p-0">
-                                        <div class="mr-1 pr-3 set4">
+                                        <div class="mr-2 pr-3 set4">
                                             <img src="Filter 2.png">
                                         </div>
                                         <div class="ml-auto position-relative mr-0">
@@ -127,10 +132,10 @@
                             <div class="row pl-5 pr-2 pb-1 pt-3">
                                 <div style="overflow-x: scroll; width: 100%;" id="style-2">
                                     <table class="table tbl-csv">
-                                        <thead>
+                                        <thead class="fs-12">
                                             <tr>
                                                 <td scope="col" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">#ID</td>
-                                                <td scope="col">STATUS <img src="Group 283.png"> </td>
+                                                <td scope="col">STATUS <img class="pl-1" src="Group 283.png"> </td>
                                                 <td scope="col">SOCIETY</td>
                                                 <td scope="col">TYPE</td>
                                                 <td scope="col">INITIATEUR</td>
@@ -450,8 +455,8 @@
                         <div class="container-fluid pl-5 pt-4">
                           <div class="fs-17 fw-500"> Edit Profile </div>
                           <div class="row">
-                            <div class="col-sm-3 m-3">
-                              <div class="ml-4"
+                            <div class="col-sm-3 m-3 mt-4">
+                              <div class="ml-4 img-90"
                                 style="width: 123px; height: 123px; border-radius: 50%; background-repeat: no-repeat; background-size: 100%; background-image: url('Group\ 2631.png'); position: relative;">
                                 <button class="btn-circle border-0"
                                   style="background-color: #615EFF; width: 28px; height: 28px; border-radius: 50%; bottom:0px; right:16px; position:absolute;">
@@ -462,7 +467,7 @@
                           </div>
                           <div class="row fs-14">
                             <div class="col-sm-6">
-                              <form id="myForm">
+                              <form id="myForm" class="mt-3">
                                 <div class="row">
                                   <div class="col-sm-6">
                                     <div class="mb-3">
@@ -624,7 +629,7 @@
                                 </div>
                               </form>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 mt-3">
                               <label for="exampleFormControlInput1" class="form-label ml-3 tc-grey">Signature</label>
                               <div class="container-fluid">
                                 <div class="drag-drop1 mr-4 navbar p-0 set3" style="height: 180px;">
@@ -643,7 +648,7 @@
                               <div class="row">
                                 <div class="col-sm-6 ml-3">
                                   <div class="pt-4">
-                                    <div class="drag-drop1 text-center p-2" style="height: 127px; width:90%;"> 
+                                    <div class="drag-drop2 text-center p-2" style="height: 127px; width:84%;"> 
                                         <input class="checkbox checkbox-primary float-left" type="checkbox" value="" checked>
                                         <br />
                                         <div style="height: 80%; width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -655,7 +660,7 @@
                               </div>
               
                               <div class="row ml-3 mt-4">
-                                <label for="exampleFormControlInput1" class="form-label tc-grey">Code PIN</label>
+                                <label for="exampleFormControlInput1" class="form-label tc-grey">CODE PIN</label>
                                   <div class="col-sm-12 p-0">
                                     <div class="row p-0 m-0">
                                       <div class="col-sm-4 pl-0">
@@ -667,7 +672,7 @@
                                         <input class="hiddenPassword" type="hidden">
                                       </div>
                                       <div class="col-sm-4 pl-0">
-                                        <button class="btn info pd-inp fs-11" type="button">SHOW your PIN CODE</button>
+                                        <button class="btn info pd-inp fs-11" type="button">SHOW PIN CODE</button>
                                       </div>
                                     </div>
                                   </div>
@@ -696,18 +701,21 @@
             $(document).ready(function(){
                         $("#profile").hide();
                         $("#profile1").hide();
+                        $("#disconnect").hide();
                         $("#permit").show(200);
 
 
                 $("#permit-link").click(function(){
                     $("#profile").hide();
                     $("#profile1").hide();
+                    $("#disconnect").hide();
                     $("#permit").show(200);
                 });
                
                 $("#edit-profile").click(function(){
                     $("#permit").hide();
                     $("#profile").hide();
+                    $("#disconnect").show(200);
                     $("#profile1").show(200);
                 });
             });
