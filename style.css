@@ -647,6 +647,7 @@ input:checked + .slider:before {
     }
     #tabsJustified li .cat.active {
         padding-right: 15px !important;
+        height: 40px !important;
     }
     #tabsJustified li {
         margin-left: 0px;
@@ -774,6 +775,20 @@ input:checked + .slider:before {
     }
     .drag-drop2{
         height: 90px !important;
+    }
+
+    .main-row{
+        height: 40px !important;
+    }
+
+    .bton{
+        width: 75px !important;
+        height: 35px !important;
+        background: #615EFF;
+        color: #200E32;
+        border-radius:9px;
+        color: #FFFFFF;
+        font-size: 14px;
     }
 
 
