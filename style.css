@@ -214,7 +214,7 @@
 }
 .tbl-csv {
     min-width: 975px;
-    text-align: center;
+    text-align: initial;
 }
 .tbl-csv thead {
     background-color: #ffffff;
